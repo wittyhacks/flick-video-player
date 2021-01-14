@@ -30,9 +30,13 @@ class FlickLeftDuration extends StatelessWidget {
             .padLeft(2, '0')
         : null;
 
-   String textDuration = durationLeft != null
-        ? '${durationLeft.inHours != 0 ? durationLeft.inHours : ''}${durationLeft.inHours != 0 ? ":" : ""}${durationLeft.inMinutes}:$durationLeftInSeconds'
-        : '00:00:00';
+//    String textDuration = durationLeft != null
+//         ? '${durationLeft.inHours != 0 ? durationLeft.inHours : ''}${durationLeft.inHours != 0 ? ":" : ""}${durationLeft.inMinutes}:$durationLeftInSeconds'
+//         : '00:00:00';
+    
+    String textDuration = durationLeft != null
+        ? '${durationLeft.inMinutes}:$durationLeftInSeconds'
+        : '0:00';
 
     return Text(
       textDuration,
