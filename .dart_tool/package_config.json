@@ -215,10 +215,10 @@
       "name": "flick_video_player",
       "rootUri": "../",
       "packageUri": "lib/",
-      "languageVersion": "2.4"
+      "languageVersion": "2.12"
     }
   ],
-  "generated": "2021-03-14T18:33:29.186129Z",
+  "generated": "2021-03-14T18:48:47.604819Z",
   "generator": "pub",
   "generatorVersion": "2.12.1"
 }
