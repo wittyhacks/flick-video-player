@@ -15,6 +15,13 @@ dependencies:
   provider: ^4.3.3
   wakelock: ^0.5.0
 
+dependency_overrides:
+  video_player:
+    git:
+      url: git://github.com/CatchUpTech/plugins.git
+      path: packages/video_player/video_player
+      ref: master
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
